@@ -4,12 +4,12 @@
 # verificar se a primeira idade é maior, menor ou igual à segunda.
 
 
-# idade_1 = int(input("informe sua idade: "))
-# idade_2 = int(input("informe a outra idade: "))
+idade_1 = int(input("informe sua idade: "))
+idade_2 = int(input("informe a outra idade: "))
 
-# print(idade_1 > idade_2)
-# print(idade_1 < idade_2)
-# print(idade_1 == idade_2)
+print(idade_1 > idade_2)
+print(idade_1 < idade_2)
+print(idade_1 == idade_2)
 
 
 
@@ -19,10 +19,10 @@
 # de comparação para verificar se elas são iguais.
 
 
-# palavra_01 = str(input("digite uma palavra: "))
-# palavra_02 = str(input("informe outra palavra: "))
+palavra_01 = str(input("digite uma palavra: "))
+palavra_02 = str(input("informe outra palavra: "))
 
-# print(palavra_01 == palavra_02)
+print(palavra_01 == palavra_02)
 
 
 
@@ -34,11 +34,11 @@
 
 
 
-# idade = int(input("informe sua idade: "))
-# cnh = input("voce possui habilitaçao?(sim | nao): ")
+idade = int(input("informe sua idade: "))
+cnh = input("voce possui habilitaçao?(sim | nao): ")
 
-# print(idade >= 18)
-# print(cnh)
+print(idade >= 18)
+print(cnh)
 
 
 
@@ -50,11 +50,11 @@
 
 
 
-# n_01 = float(input("informe a primeira nota: "))
-# n_02 = float(input("informe a segunda nota: "))
+n_01 = float(input("informe a primeira nota: "))
+n_02 = float(input("informe a segunda nota: "))
 
-# print(n_01 >= 6)
-# print(n_02 >= 6)
+print(n_01 >= 6)
+print(n_02 >= 6)
 
 
 
@@ -64,11 +64,11 @@
 # use o operador de atribuição -= para aplicar um desconto de 5%.
 
 
-# produto = "bicicleta"
-# V_produto = float(input("informe o valor do produtro: "))
-# D = (V_produto - (V_produto*5/100))
+produto = "bicicleta"
+V_produto = float(input("informe o valor do produtro: "))
+D = (V_produto - (V_produto*5/100))
 
-# print(F"O produto com o desconto ficou por {D}R$.")
+print(F"O produto com o desconto ficou por {D}R$.")
 
 #nao conseguir fazer de outra forma estou estudando pra isso
 
@@ -80,10 +80,10 @@
 
 
 
-# numero = float(input("informe um numero: "))
+numero = float(input("informe um numero: "))
 
-# dobro = (numero * 2)
-# print(dobro)
+dobro = (numero * 2)
+print(dobro)
 
 
 #nao conseguir fazer de outra forma estou estudando pra isso
@@ -97,12 +97,12 @@
 # presente na frase.
 
 
-# frase = str(input("escreva uma frase: "))
-# caractere = str(input("informe um caractere: "))
+frase = str(input("escreva uma frase: "))
+caractere = str(input("informe um caractere: "))
 
-# resultado = (caractere) in (frase)
+resultado = (caractere) in (frase)
 
-# print(resultado)
+print(resultado)
 
 
 
@@ -113,12 +113,12 @@
 # Use in para verificar se a palavra está na frase.
 
 
-# frase = str(input("escreva uma frase: "))
-# palavra = str(input("informe uma palavra: "))
+frase = str(input("escreva uma frase: "))
+palavra = str(input("informe uma palavra: "))
 
-# resultado = (palavra) in (frase)
+resultado = (palavra) in (frase)
 
-# print(resultado)
+print(resultado)
 
 
 # Atividade 09:
@@ -128,12 +128,12 @@
 
 
 
-# numero = int(input("informe um numero: "))
+numero = int(input("informe um numero: "))
 
-# if numero % 2 == 0:
-#     print("o numero e par.")
-# else:
-#     print("o numero e impar")
+if numero % 2 == 0:
+    print("o numero e par.")
+else:
+    print("o numero e impar")
 
 
 
@@ -147,10 +147,10 @@
 
 # nota = float(input("informe sua nota: "))
 
-# if nota >= 6:
-#     print("parabens você foi aprovado.")
-# else:
-#     print("Reprovado.")
+if nota >= 6:
+    print("parabens você foi aprovado.")
+else:
+    print("Reprovado.")
 
 
 
@@ -164,17 +164,17 @@
 
 
 
-# numero = int(input("informe um numero: "))
+numero = int(input("informe um numero: "))
 
-# if numero % 2 == 0:
-#    print("o numero e par.")
-# else:
-#    print("o numero e impar")
+if numero % 2 == 0:
+   print("o numero e par.")
+else:
+   print("o numero e impar")
 
-# if numero > 0:
-#     print("O numero e positivo")
-# if numero < 0:
-#     print("O numero e negativo")
+if numero > 0:
+    print("O numero e positivo")
+if numero < 0:
+    print("O numero e negativo")
 
 
 
@@ -192,14 +192,14 @@
 
 # imc = float(input("informe seu peso: "))
 
-# if imc < 50:
-#     print("abaixo do peso.")
-# elif imc == 50:
-#     print("peso normal.")
-# elif imc <= 70:
-#     print("sobrepeso.")
-# else:
-#     print("obesidade.")
+if imc < 50:
+    print("abaixo do peso.")
+elif imc == 50:
+    print("peso normal.")
+elif imc <= 70:
+    print("sobrepeso.")
+else:
+    print("obesidade.")
 
 
 
@@ -215,15 +215,15 @@
 
 
 
-# usuario = str(input("informe seu nome de usuario: "))
-# senha = input("informe sua senha: ")
+usuario = str(input("informe seu nome de usuario: "))
+senha = input("informe sua senha: ")
 
-# if usuario == "felipe21" and senha == "1234":
-#     print("usuario e senha correta.")
-# elif usuario != "felipe21" and senha == "1234":
-#     print("usuario invalido.")
-# else:
-#     print("senha incorreta.")
+if usuario == "felipe21" and senha == "1234":
+    print("usuario e senha correta.")
+elif usuario != "felipe21" and senha == "1234":
+    print("usuario invalido.")
+else:
+    print("senha incorreta.")
 
 
 
