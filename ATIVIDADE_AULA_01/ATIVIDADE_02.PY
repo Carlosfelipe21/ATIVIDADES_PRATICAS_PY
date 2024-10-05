@@ -145,7 +145,7 @@ else:
 
 
 
-# nota = float(input("informe sua nota: "))
+nota = float(input("informe sua nota: "))
 
 if nota >= 6:
     print("parabens você foi aprovado.")
