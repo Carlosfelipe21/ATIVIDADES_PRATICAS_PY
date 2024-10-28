@@ -23,15 +23,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 # Atividade 2:
 
 # Realize um prompt detalhado sobre um cenário futurístico, da
